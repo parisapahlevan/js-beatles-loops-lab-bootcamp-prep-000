@@ -9,8 +9,9 @@ return myEmptyArray
 
 function johnLennonFacts(facts){
   var array = []
-  while (facts.length > 0) {
-    console.log(++facts)
+  var i = 0;
+  while (i < facts.length) {
+    i++
     array.push(`${facts[i]}!!!`);
     }
   return array
