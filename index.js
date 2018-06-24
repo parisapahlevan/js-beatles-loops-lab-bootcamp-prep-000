@@ -6,6 +6,7 @@ for (var i = 0; i < musicians.length; i++){
 }
 return myEmptyArray
 }
+
 function johnLennonFacts(facts){
   var array = []
   while (facts.length > 0) {
